@@ -10,37 +10,42 @@ const HeadingWithEllipse = ({ heading }) => {
     const innerEllipse = innerEllipseRef.current;
 
     if (outerEllipse && innerEllipse) {
-      // Animate the outer ellipse on hover
-      outerEllipse.addEventListener("mouseenter", () => {
+      const handleMouseEnter = () => {
+        // Animate both ellipses simultaneously on hover
         animate(
           outerEllipse,
-          { transform: "scale(1.1) rotate(3deg)" },
-          { duration: 0.8, easing: "ease-in-out" }
+          { transform: "scale(1.1) rotate(5deg)" },
+          { duration: 0.6, easing: "ease-in" }
         );
-      });
-      outerEllipse.addEventListener("mouseleave", () => {
+        animate(
+          innerEllipse,
+          { transform: "scale(1.1) rotate(-5deg)" },
+          { duration: 0.6, easing: "ease-out" }
+        );
+      };
+
+      const handleMouseLeave = () => {
+        // Reset both ellipses to their original state
         animate(
           outerEllipse,
           { transform: "scale(1) rotate(3deg)" },
-          { duration: 0.8, easing: "ease-in-out" }
+          { duration: 0.6, easing: "ease-in-out" }
         );
-      });
-
-      // Animate the inner ellipse on hover
-      innerEllipse.addEventListener("mouseenter", () => {
-        animate(
-          innerEllipse,
-          { transform: "scale(1.2) rotate(-3deg)" },
-          { duration: 0.8, easing: "ease-in-out" }
-        );
-      });
-      innerEllipse.addEventListener("mouseleave", () => {
         animate(
           innerEllipse,
           { transform: "scale(1) rotate(-3deg)" },
-          { duration: 0.8, easing: "ease-in-out" }
+          { duration: 0.6, easing: "ease-in-out" }
         );
-      });
+      };
+
+      outerEllipse.addEventListener("mouseenter", handleMouseEnter);
+      outerEllipse.addEventListener("mouseleave", handleMouseLeave);
+
+      return () => {
+        // Cleanup event listeners
+        outerEllipse.removeEventListener("mouseenter", handleMouseEnter);
+        outerEllipse.removeEventListener("mouseleave", handleMouseLeave);
+      };
     }
   }, []);
 
