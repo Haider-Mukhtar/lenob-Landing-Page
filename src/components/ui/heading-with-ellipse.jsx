@@ -10,34 +10,34 @@ const HeadingWithEllipse = ({ heading }) => {
     const innerEllipse = innerEllipseRef.current;
 
     if (outerEllipse && innerEllipse) {
-      // Add hover animation for the outer ellipse
+      // Animate the outer ellipse on hover
       outerEllipse.addEventListener("mouseenter", () => {
         animate(
           outerEllipse,
-          { transform: ["scale(1)", "scale(1.1)"] },
+          { transform: "scale(1.1) rotate(3deg)" },
           { duration: 0.8, easing: "ease-in-out" }
         );
       });
       outerEllipse.addEventListener("mouseleave", () => {
         animate(
           outerEllipse,
-          { transform: ["scale(1.1)", "scale(1)"] },
+          { transform: "scale(1) rotate(3deg)" },
           { duration: 0.8, easing: "ease-in-out" }
         );
       });
 
-      // Add hover animation for the inner ellipse
+      // Animate the inner ellipse on hover
       innerEllipse.addEventListener("mouseenter", () => {
         animate(
           innerEllipse,
-          { transform: ["scale(1)", "scale(1.2)"] },
+          { transform: "scale(1.2) rotate(-3deg)" },
           { duration: 0.8, easing: "ease-in-out" }
         );
       });
       innerEllipse.addEventListener("mouseleave", () => {
         animate(
           innerEllipse,
-          { transform: ["scale(1.2)", "scale(1)"] },
+          { transform: "scale(1) rotate(-3deg)" },
           { duration: 0.8, easing: "ease-in-out" }
         );
       });
@@ -50,12 +50,12 @@ const HeadingWithEllipse = ({ heading }) => {
         {/* Outer Ellipse */}
         <div
           ref={outerEllipseRef}
-          className="absolute top-0 bottom-0 w-full h-full border border-black rounded-[60%_/_60%]"
+          className="absolute top-0 bottom-0 w-full h-full border border-black rounded-[60%_/_60%] rotate-3"
         ></div>
         {/* Inner Ellipse */}
         <div
           ref={innerEllipseRef}
-          className="absolute top-0 bottom-0 w-full h-full border border-black rounded-[60%_/_60%]"
+          className="absolute top-0 bottom-0 w-full h-full border border-black rounded-[60%_/_60%] -rotate-3"
         ></div>
         {/* Heading */}
         <div className="font-bold text-4xl sm:text-5xl md:text-5xl xl:text-6xl w-full sm:w-3/4 text-center my-10">
