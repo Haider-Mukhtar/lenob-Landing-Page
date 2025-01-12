@@ -2,18 +2,21 @@ import { Link } from "react-router";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { IoMdArrowDropdown } from "react-icons/io";
 
+import { useRef, useState } from "react";
 import logo from "../assets/img/lenob-logo.png";
 import MaxWidthWrapper from "./max-width-wrapper";
-import { useState } from "react";
+import { useOnClickOutside } from "../hooks/use-on-click-outside";
 
 const Navbar = () => {
+  const menuRef = useRef(null);
   const [toggleMenu, setToggleMenu] = useState(false)
+  useOnClickOutside(menuRef, () => setToggleMenu(false));
 
   return (
     <nav className="fixed left-0 top-0 z-[1] flex w-full items-center justify-center backdrop-blur-md">
       <MaxWidthWrapper>
         {/*Desktop*/}
-        <div className="hidden md:flex h-20 items-center justify-between">
+        <div className="hidden lg:flex h-20 items-center justify-between">
           <Link to={"/"}>
             <img
               src={logo}
@@ -35,7 +38,7 @@ const Navbar = () => {
           </button>
         </div>
         {/*Mobile*/}
-        <div className="flex md:hidden h-20 items-center justify-between">
+        <div className="flex lg:hidden h-20 items-center justify-between">
           <Link to={"/"}>
             <img
               src={logo}
@@ -44,13 +47,13 @@ const Navbar = () => {
             />
           </Link>
           <div className="relative">
-            <button type="button" className="" onClick={()=>setToggleMenu(!toggleMenu)} >
+            <button type="button" className="" onClick={()=>setToggleMenu(true)} >
               <CgMenuRightAlt className="size-10" />
             </button>
             {toggleMenu && (
               <div
-                // ref={menuRef}
-                className="w-64 shadow-xl rounded-xl bg-transparent absolute top-12 right-0 flex flex-col items-center justify-center gap-6 p-6 text-lg font-medium text-gray-700 border border-gray-200"
+                ref={menuRef}
+                className="w-64 shadow-xl rounded-xl bg-transparent absolute top-12 right-0 flex flex-col items-center justify-center gap-6 p-6 text-lg font-medium text-gray-700 border border-gray-200 bg-gradient-to-l from-emerald-100 via-blue-100 to-emerald-100"
               >
                 <Link to={"/"}> Home </Link>
                 <Link to={"/"}> Our Services </Link>

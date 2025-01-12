@@ -7,7 +7,7 @@ const MessageSection = () => {
     <div className="w-full">
       <MaxWidthWrapper>
         <div className="py-12 w-full px-2 sm:px-4 md:px-6 lg:px-14 xl:px-32 bg-gradient-to-r from-[#B4E7DD] to-[#91D8F7] rounded-3xl drop-shadow-md">
-          <HeadingWithEllipse heading={"A Message to Ambitious Entrepreneurs"} width={"w-3/4"} />
+          <HeadingWithEllipse heading={"A Message to Ambitious Entrepreneurs"} />
           <div className="text-black text-xl sm:text-2xl lg:text-3xl space-y-3 sm:space-y-4 lg:space-y-6 mt-10 w-full lg:w-4/5 xl:w-4/6">
             <h2 className="font-bold"> Dear visionary business owner, </h2>
             <p>We understand. Growing a business can feel like running a marathon with no finish line.</p>

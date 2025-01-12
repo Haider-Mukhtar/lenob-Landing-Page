@@ -28,7 +28,7 @@ const HeroSection = () => {
               &nbsp;in annual revenue with targeted Meta and Google Ads.
             </div>
           </div>
-          <div className="w-full md:w-[90%] lg:w-[70%] xl:w-[60%] rounded-xl bg-gray-500">
+          <div className="w-full md:w-[90%] lg:w-[70%] xl:w-[50%] rounded-xl bg-gray-500">
             <video
               className="aspect-video h-full w-full rounded-xl"
               controls

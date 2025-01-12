@@ -1,13 +1,13 @@
-const HeadingWithEllipse = ({heading, width}) => {
+const HeadingWithEllipse = ({heading}) => {
   return (
-    <div className="flex justify-center items-center flex-col">
-      <div className="relative w-full flex items-center justify-center">
-        <div className={`h-56 ${width} text-center border-2 border-black rounded-[60%_/_60%] rotate-3 absolute top-0`}></div>
-        <div className={`h-56 ${width} text-center border-2 border-black rounded-[60%_/_60%] -rotate-3 absolute top-0`}></div>
+      <div className="flex justify-center items-center">
+        <div className="relative w-full lg:w-[90%] xl:w-4/5 flex items-center justify-center">
+          <div className="w-full text-center border border-black rounded-[60%_/_60%] rotate-3 absolute top-0 bottom-0"></div>
+          <div className="w-full text-center border border-black rounded-[60%_/_60%] -rotate-3 absolute top-0 bottom-0"></div>
+          <div className="font-bold text-4xl sm:text-5xl md:text-5xl xl:text-6xl w-full sm:w-3/4 text-center my-10">{heading}</div>
+        </div>
       </div>
-      <div className="font-bold text-6xl w-3/4 text-center my-16">{heading}</div>
-    </div>
   )
 }
 
-export default HeadingWithEllipse;
+export default HeadingWithEllipse;                        
