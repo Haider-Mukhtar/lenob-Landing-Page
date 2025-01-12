@@ -9,7 +9,9 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <MessageSection />
+      {/*
       <ExpertiseSection />
+        */}
     </div>
   );
 };
