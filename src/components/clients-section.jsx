@@ -41,6 +41,12 @@ const ClientsSection = () => {
                 ))
               }
             </Marquee>
+            <p className="text-xl sm:text-2xl lg:text-4xl font-medium text-center">We love our client and our clients love us.</p>
+            <div className="flex items-center justify-center mt-10">
+              <button className="rounded-xl border-[2.5px] border-black bg-black px-8 py-3.5 text-xl font-semibold text-white transition-colors duration-200 hover:bg-transparent hover:text-black">
+                See All Feedback
+              </button>
+            </div>
         </div>
       </MaxWidthWrapper>
     </div>
