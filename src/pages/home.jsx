@@ -3,6 +3,7 @@ import GrowthSection from "../components/growth-section";
 import HeroSection from "../components/hero-section";
 import MessageSection from "../components/message-section";
 import Navbar from "../components/navbar";
+import StepsSection from "../components/steps-section";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <MessageSection />
       <ExpertiseSection />
       <GrowthSection />
+      <StepsSection />
       {/*
         */}
     </div>

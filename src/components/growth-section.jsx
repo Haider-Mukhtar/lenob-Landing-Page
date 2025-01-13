@@ -9,7 +9,7 @@ const GrowthSection = () => {
       <MaxWidthWrapper>
         <div className="pt-20 w-full">
           <HeadingWithEllipse heading={"Why Businesses out there Trust Lenob for Growth"} />
-          <div className="grid grid-cols-1 md:grid-cols-3 py-10 lg:px-10 xl:px-24">
+          <div className="grid grid-cols-1 md:grid-cols-3 pt-10 lg:px-10 xl:px-24">
             <div className="col-span-2">
               {
                 growthContent.map((growthContent)=>(

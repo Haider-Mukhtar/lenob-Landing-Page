@@ -56,3 +56,30 @@ export const growthContent = [
     description: "Whether it’s PPC, SEO, social media advertising, or conversion optimization, our experts bring years of experience and cutting-edge insights to the table.",
   },
 ]
+
+export const stepsData = [
+  {
+    id: 1,
+    step: "Step 1",
+    title: "Understand Your Business",
+    description: "We take the time to learn about your business, market, and goals. This foundational understanding allows us to design strategies that align perfectly with your vision.",
+  },
+  {
+    id: 2,
+    step: "Step 2",
+    title: "Develop a Tailored Strategy",
+    description: "Using insights from extensive market research and competitor analysis, we craft a comprehensive plan to achieve your desired outcomes. No guesswork, just actionable strategies backed by data.",
+  },
+  {
+    id: 3,
+    step: "Step 3",
+    title: "Launch and Optimize",
+    description: "Once the strategy is set, we execute with precision. Our team continuously monitors performance, making real-time adjustments to ensure maximum impact and efficiency.",
+  },
+  {
+    id: 4,
+    step: "Step 4",
+    title: "Analyze and Report",
+    description: "We provide clear, detailed reports that showcase the results of your campaigns. With actionable insights and transparent metrics, you'll always know where your investment is going.",
+  },
+]
