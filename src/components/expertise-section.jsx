@@ -22,7 +22,7 @@ const ExpertiseSection = () => {
                     <p className='text-xs mt-1 text-gray-800'>{expertise.tag}</p>
                     <p className='text-lg mt-4 text-gray-900'>{expertise.description}</p>
                   </div>
-                  <button className='bg-black p-1.5 rounded-full absolute top-8 right-8 drop-shadow-md'>
+                  <button className='bg-black p-1.5 rounded-full absolute top-8 right-8 drop-shadow-md hover:scale-105 duration-200'>
                     <FaRegHeart className='size-5 fill-white aspect-square' />
                   </button>
                 </div>
