@@ -6,6 +6,7 @@ import HeroSection from "../components/hero-section";
 import MessageSection from "../components/message-section";
 import Navbar from "../components/navbar";
 import StepsSection from "../components/steps-section";
+import TakeAStepSection from "../components/take-a-step-section";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <StepsSection />
       <FamilySection />
       <ClientsSection />
+      <TakeAStepSection />
       {/*
         */}
     </div>

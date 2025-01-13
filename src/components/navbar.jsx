@@ -24,7 +24,7 @@ const Navbar = () => {
               className="aspect-[16/6] w-36 object-fill"
             />
           </Link>
-          <div className="flex items-center justify-center gap-10 text-lg font-medium text-gray-700">
+          <div className="flex items-center justify-center gap-10 text-lg font-medium text-black">
             <Link to={"/"}> Home </Link>
             <Link to={"/"}> Our Services </Link>
             <Link to={"/"} className="flex items-center justify-center gap-1">
@@ -53,7 +53,7 @@ const Navbar = () => {
             {toggleMenu && (
               <div
                 ref={menuRef}
-                className="w-64 shadow-xl rounded-xl bg-transparent absolute top-12 right-0 flex flex-col items-center justify-center gap-6 p-6 text-lg font-medium text-gray-700 border border-gray-200 bg-gradient-to-l from-emerald-100 via-blue-100 to-emerald-100"
+                className="w-64 shadow-xl rounded-xl bg-transparent absolute top-12 right-0 flex flex-col items-center justify-center gap-6 p-6 text-lg font-medium text-black border border-gray-200 bg-gradient-to-l from-emerald-100 via-blue-100 to-emerald-100"
               >
                 <Link to={"/"}> Home </Link>
                 <Link to={"/"}> Our Services </Link>

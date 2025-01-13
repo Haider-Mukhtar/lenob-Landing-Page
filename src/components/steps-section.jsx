@@ -9,7 +9,7 @@ const StepsSection = () => {
       <MaxWidthWrapper>
         <div className="pt-20 w-full">
           <HeadingWithEllipse heading={"From Traffic to Conversions"} />
-          <p className="text-xl sm:text-2xl lg:text-4xl font-medium mt-10 text-center">The Complete Solution for Your Business Growth</p>
+          <p className="text-xl sm:text-2xl lg:text-3xl font-medium mt-10 text-center">The Complete Solution for Your Business Growth</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 my-10">
             {
               stepsData.map((stepsData)=>(
