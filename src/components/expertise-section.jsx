@@ -1,4 +1,5 @@
 import Marquee from 'react-fast-marquee';
+import { FaRegHeart } from "react-icons/fa";
 import { expertise } from '../lib/constants';
 import MaxWidthWrapper from './max-width-wrapper';
 import HeadingWithEllipse from './ui/heading-with-ellipse';
@@ -12,7 +13,7 @@ const ExpertiseSection = () => {
           <Marquee pauseOnHover pauseOnClick >
             {
               expertise.map((expertise)=>(
-                <div key={expertise.id} className='my-12 mx-4 p-4 w-[500px] rounded-xl duration-500 hover:scale-105 drop-shadow-lg bg-white/50 '>
+                <div key={expertise.id} className='relative my-12 mx-4 p-4 w-[500px] rounded-xl duration-500 hover:scale-105 drop-shadow-lg bg-white/50 '>
                   <div className=' bg-black overflow-hidden rounded-lg h-60'>
                       <img src={expertise.banner} className='object-cover w-full h-full' alt={`${expertise.title} banner`} />
                   </div>
@@ -21,6 +22,9 @@ const ExpertiseSection = () => {
                     <p className='text-xs mt-1 text-gray-800'>{expertise.tag}</p>
                     <p className='text-lg mt-4 text-gray-900'>{expertise.description}</p>
                   </div>
+                  <button className='bg-black p-1.5 rounded-full absolute top-8 right-8 drop-shadow-md'>
+                    <FaRegHeart className='size-5 fill-white aspect-square' />
+                  </button>
                 </div>
               ))
             }
