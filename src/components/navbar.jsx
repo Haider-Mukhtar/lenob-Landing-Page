@@ -13,7 +13,7 @@ const Navbar = () => {
   useOnClickOutside(menuRef, () => setToggleMenu(false));
 
   return (
-    <nav className="fixed left-0 top-0 z-[1] flex w-full items-center justify-center backdrop-blur-md">
+    <nav className="fixed left-0 top-0 z-50 flex w-full items-center justify-center backdrop-blur-md">
       <MaxWidthWrapper>
         {/*Desktop*/}
         <div className="hidden lg:flex h-20 items-center justify-between">

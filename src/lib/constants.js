@@ -1,7 +1,13 @@
 import CROBanner from "../assets/img/cro-banner.png";
-import FacebookAdsBanner from "../assets/img/facebook-ads-banner.png";
-import GoogleAdsBanner from "../assets/img/google-ads-banner.png";
 import SEOBanner from "../assets/img/seo-banner.png";
+import GoogleAdsBanner from "../assets/img/google-ads-banner.png";
+import FacebookAdsBanner from "../assets/img/facebook-ads-banner.png";
+
+import client1 from "../assets/img/client1.png";
+import client2 from "../assets/img/client2.png";
+import client3 from "../assets/img/client3.png";
+import client4 from "../assets/img/client4.png";
+import client5 from "../assets/img/client5.png";
 
 export const expertise = [
   {
@@ -81,5 +87,87 @@ export const stepsData = [
     step: "Step 4",
     title: "Analyze and Report",
     description: "We provide clear, detailed reports that showcase the results of your campaigns. With actionable insights and transparent metrics, you'll always know where your investment is going.",
+  },
+]
+
+export const familyData = [
+  {
+    id: 1,
+    title: "From Struggle to Success: A 300% ROI Boost with Google Ads",
+    challenge: "Low ROI and underperforming campaigns.",
+    solution: "We revamped their Google Ads strategy, introducing advanced targeting techniques and creating compelling ad copy.",
+    results: "A 300% increase in ROI within just two months, solidifying their position as an industry leader.",
+  },
+  {
+    id: 2,
+    title: "From Struggle to Success: A 300% ROI Boost with Google Ads",
+    challenge: "Low ROI and underperforming campaigns.",
+    solution: "We revamped their Google Ads strategy, introducing advanced targeting techniques and creating compelling ad copy.",
+    results: "A 300% increase in ROI within just two months, solidifying their position as an industry leader.",
+  },
+  {
+    id: 3,
+    title: "From Struggle to Success: A 300% ROI Boost with Google Ads",
+    challenge: "Low ROI and underperforming campaigns.",
+    solution: "We revamped their Google Ads strategy, introducing advanced targeting techniques and creating compelling ad copy.",
+    results: "A 300% increase in ROI within just two months, solidifying their position as an industry leader.",
+  },
+]
+
+export const clientsReviews = [
+  {
+    id: 1,
+    title: "High-Quality Ad Creation with Excellent Responsiveness and Efficiency",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns.",
+    clientName: "Wade Warren",
+    clientDetail: "Founder of Edardx",
+    clientImage: client1,
+    iconColor: "bg-[#F6C926]",
+    starColor: "fill-[#F6C926]",
+    bgColor: "bg-[#f3de92]",
+  },
+  {
+    id: 2,
+    title: "Transformative Results and Outstanding Communication",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns. Highly recommended for anyone looking to enhance their advertising efforts.",
+    clientName: "Albert Flores",
+    clientDetail: "Founder of Edardx",
+    clientImage: client2,
+    iconColor: "bg-[#6864ED]",
+    starColor: "fill-[#6864ED]",
+    bgColor: "bg-[#EEEEFD]",
+  },
+  {
+    id: 3,
+    title: "High-Quality Ad Creation with Excellent Responsiveness and Efficiency",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns.",
+    clientName: "Jenny Wilson",
+    clientDetail: "Founder of Edardx",
+    clientImage: client3,
+    iconColor: "bg-[#CD26F6]",
+    starColor: "fill-[#CD26F6]",
+    bgColor: "bg-[#F8DEFF]",
+  },
+  {
+    id: 4,
+    title: "Outstanding Ad Management: Consistently Meeting ROAS Targets with Sulman's Expertise",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns.",
+    clientName: "Savannah",
+    clientDetail: "Founder of Edardx",
+    clientImage: client4,
+    iconColor: "bg-[#33CC79]",
+    starColor: "fill-[#33CC79]",
+    bgColor: "bg-[#EBFAF2]",
+  },
+  {
+    id: 5,
+    title: "Transformative Results and Outstanding Communication",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns.",
+    clientName: "Guy Hawkins",
+    clientDetail: "Founder of Edardx",
+    clientImage: client5,
+    iconColor: "bg-[#6864ED]",
+    starColor: "fill-[#6864ED]",
+    bgColor: "bg-[#EEEEFD]",
   },
 ]

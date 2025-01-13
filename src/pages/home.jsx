@@ -1,4 +1,6 @@
+import ClientsSection from "../components/clients-section";
 import ExpertiseSection from "../components/expertise-section";
+import FamilySection from "../components/family-section";
 import GrowthSection from "../components/growth-section";
 import HeroSection from "../components/hero-section";
 import MessageSection from "../components/message-section";
@@ -14,6 +16,8 @@ const Home = () => {
       <ExpertiseSection />
       <GrowthSection />
       <StepsSection />
+      <FamilySection />
+      <ClientsSection />
       {/*
         */}
     </div>
