@@ -33,7 +33,7 @@ const Navbar = () => {
             </Link>
             <Link to={"/"}> About us </Link>
           </div>
-          <button className="w-36 rounded-xl bg-black py-4 text-xl font-semibold text-white hover:bg-black/80 transition-colors duration-200">
+          <button className="w-36 rounded-xl bg-black py-3.5 text-xl font-semibold text-white hover:bg-transparent hover:text-black border-2 border-black transition-colors duration-200">
             Contact us
           </button>
         </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
                   <IoMdArrowDropdown className="size-8" />
                 </Link>
                 <Link to={"/"}> About us </Link>
-                <button className="w-full rounded-xl bg-black py-4 text-xl font-semibold text-white hover:bg-black/80 transition-colors duration-200">
+                <button className="w-full rounded-xl bg-black py-3.5 text-xl font-semibold text-white hover:bg-transparent hover:text-black border-2 border-black transition-colors duration-200">
                   Contact us
                 </button>
               </div>

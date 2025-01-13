@@ -42,10 +42,10 @@ const HeroSection = () => {
             </video>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-4 md:gap-6 lg:gap-10">
-            <button className="rounded-xl border-[2.5px] border-black bg-black px-8 py-4 text-xl font-semibold text-white transition-colors duration-200 hover:bg-black/90">
+            <button className="rounded-xl border-[2.5px] border-black bg-black px-8 py-3.5 text-xl font-semibold text-white transition-colors duration-200 hover:bg-transparent hover:text-black">
               Get a Free Audit Report
             </button>
-            <button className="rounded-xl border-[2.5px] border-black bg-transparent px-8 py-4 text-xl font-semibold text-black transition-colors duration-200">
+            <button className="rounded-xl border-[2.5px] border-black bg-transparent px-8 py-3.5 text-xl font-semibold text-black transition-colors duration-200 hover:text-white hover:bg-black">
               Schedule an Ice Breaker
             </button>
           </div>
