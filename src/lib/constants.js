@@ -9,6 +9,8 @@ import client3 from "../assets/img/client3.png";
 import client4 from "../assets/img/client4.png";
 import client5 from "../assets/img/client5.png";
 
+import videoClient1 from "../assets/img/videoClient1.png";
+
 export const expertise = [
   {
     id: 1,
@@ -169,5 +171,17 @@ export const clientsReviews = [
     iconColor: "bg-[#6864ED]",
     starColor: "fill-[#6864ED]",
     bgColor: "bg-[#EEEEFD]",
+  },
+]
+
+export const videoTestimonial = [
+  {
+    id: 1,
+    title: "Facebook Ads Optimization",
+    description: "I am happy with the quality of work Salman and his team provided. I highly recommend him for anyone looking for Facebook Ads expert. Cheers!",
+    clientName: "Jordan Rampson",
+    clientDetail: "Content Creator",
+    clientImage: videoClient1,
+    videoURL: "https://docs.material-tailwind.com/demo.mp4",
   },
 ]

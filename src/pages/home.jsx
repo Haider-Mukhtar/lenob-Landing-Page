@@ -1,11 +1,12 @@
-import ClientsSection from "../components/clients-section";
-import ExpertiseSection from "../components/expertise-section";
+import Navbar from "../components/navbar";
+import HeroSection from "../components/hero-section";
+import StepsSection from "../components/steps-section";
 import FamilySection from "../components/family-section";
 import GrowthSection from "../components/growth-section";
-import HeroSection from "../components/hero-section";
 import MessageSection from "../components/message-section";
-import Navbar from "../components/navbar";
-import StepsSection from "../components/steps-section";
+import ClientsSection from "../components/clients-section";
+import ExpertiseSection from "../components/expertise-section";
+import VideoTestimonial from "../components/video-testimonial";
 import TakeAStepSection from "../components/take-a-step-section";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <ClientsSection />
       <TakeAStepSection />
       {/*
+        <VideoTestimonial />
         */}
     </div>
   );

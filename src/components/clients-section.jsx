@@ -15,7 +15,7 @@ const ClientsSection = () => {
             <Marquee pauseOnHover>
               {
                 clientsReviews.map((clientsReviews)=>(
-                  <div key={clientsReviews.id} className={`my-12 mx-2 md:mx-4 p-8 w-80 sm:w-96 md:w-[500px] rounded-xl duration-500 hover:scale-105 drop-shadow-lg space-y-4 flex flex-col ${clientsReviews.bgColor}`}>
+                  <div key={clientsReviews.id} className={`my-12 mx-2 md:mx-4 p-4 md:p-8 w-80 sm:w-96 md:w-[500px] rounded-xl duration-500 hover:scale-105 drop-shadow-lg space-y-4 flex flex-col ${clientsReviews.bgColor}`}>
                     <div className={`${clientsReviews.iconColor} p-2 rounded-full size-14 flex justify-center items-center`}>
                       <FaQuoteRight className="size-8 fill-white" />
                     </div>
