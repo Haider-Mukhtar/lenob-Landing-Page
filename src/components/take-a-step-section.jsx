@@ -5,7 +5,7 @@ const TakeAStepSection = () => {
   return (
     <div className="w-full">
       <MaxWidthWrapper>
-        <div className="pt-20 w-full">
+        <div className="py-20 w-full">
           <HeadingWithEllipse heading={"Take the First Step Toward Growth"} />
           <p className="text-xl sm:text-2xl lg:text-3xl font-medium mt-10 text-center">Your success story starts here. Partner with Lenob.co to harness the power of expertly crafted digital marketing strategies. From driving traffic to converting leads, we're dedicated to achieving results that matter.</p>
           <p className="text-xl sm:text-2xl lg:text-3xl font-medium mt-10 text-center">Schedule your free consultation today and let's create something extraordinary together!</p>

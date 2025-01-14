@@ -15,7 +15,7 @@ const ExpertiseSection = () => {
               expertise.map((expertise)=>(
                 <div key={expertise.id} className='relative my-12 mx-2 md:mx-4 p-4 w-80 sm:w-96 md:w-[500px] rounded-xl duration-500 hover:scale-105 drop-shadow-lg bg-white/50 '>
                   <div className='flex flex-col justify-between items-center'>
-                    <img src={expertise.banner} className='object-cover w-full h-60 bg-black rounded-lg' alt={`${expertise.title} banner`} />
+                    <img src={expertise.banner} className='object-cover w-full h-60 bg-black rounded-lg border-2 border-gray-200' alt={`${expertise.title} banner`} />
                     <div className='my-4 md:my-6 text-black'>
                       <p className='font-bold text-lg sm:text-xl md:text-2xl'>{expertise.title}</p>
                       <p className='text-xs mt-1 text-gray-800'>{expertise.tag}</p>

@@ -16,7 +16,7 @@ const StepsSection = () => {
                 <div key={stepsData} className="text-black flex flex-col items-center gap-8">
                   <p className="font-bold text-4xl sm:text-5xl md:text-5xl xl:text-6xl">{stepsData.step}</p>
                   <p className="font-bold text-2xl sm:text-3xl lg:text-3xl text-center px-12 xl:px-8">{stepsData.title}</p>
-                  <p className="text-lg sm:text-xl text-center">{stepsData.description}</p>
+                  <p className="text-lg sm:text-xl text-start">{stepsData.description}</p>
                 </div>
               ))
             }

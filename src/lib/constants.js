@@ -184,4 +184,22 @@ export const videoTestimonial = [
     clientImage: videoClient1,
     videoURL: "https://docs.material-tailwind.com/demo.mp4",
   },
+  {
+    id: 2,
+    title: "Facebook Ads Optimization",
+    description: "I am happy with the quality of work Salman and his team provided. I highly recommend him for anyone looking for Facebook Ads expert. Cheers!",
+    clientName: "Jordan Rampson",
+    clientDetail: "Content Creator",
+    clientImage: videoClient1,
+    videoURL: "https://docs.material-tailwind.com/demo.mp4",
+  },
+  {
+    id: 3,
+    title: "Facebook Ads Optimization",
+    description: "I am happy with the quality of work Salman and his team provided. I highly recommend him for anyone looking for Facebook Ads expert. Cheers!",
+    clientName: "Jordan Rampson",
+    clientDetail: "Content Creator",
+    clientImage: videoClient1,
+    videoURL: "https://docs.material-tailwind.com/demo.mp4",
+  },
 ]

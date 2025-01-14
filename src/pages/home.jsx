@@ -8,6 +8,7 @@ import ClientsSection from "../components/clients-section";
 import ExpertiseSection from "../components/expertise-section";
 import VideoTestimonial from "../components/video-testimonial";
 import TakeAStepSection from "../components/take-a-step-section";
+import Footer from "../components/footer";
 
 const Home = () => {
   return (
@@ -20,9 +21,10 @@ const Home = () => {
       <StepsSection />
       <FamilySection />
       <ClientsSection />
+      <VideoTestimonial />
       <TakeAStepSection />
+      <Footer />
       {/*
-        <VideoTestimonial />
         */}
     </div>
   );
