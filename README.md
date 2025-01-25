@@ -4,10 +4,6 @@
 A Game Changing Transformation with Meta and Google Ads.<br>
 Responsive for all devices, built using React JS, and TailwindCSS.
 
-## Demo
-
-<a href="https://mylenob-project.vercel.app/" target="_blank" title="Portfolio">💻 Live Demo</a>
-
 
 ## Run Locally
 
@@ -45,4 +41,10 @@ Start the server
 
 - [@Haider Mukhtar](https://github.com/Haider-Mukhtar)
 - [@Abdul Hannan](https://github.com/MrabdulHannan1)
+
+
+## Demo
+
+![screencapture-mylenob-project-vercel-app-2025-01-25-18_52_53](https://github.com/user-attachments/assets/dc500c31-a549-4610-8ab6-846f795b1141)
+
 
